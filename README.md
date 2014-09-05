@@ -5,6 +5,7 @@
 ## パターン一覧
 
 - [AbstractFactory パターン](abstract_factory.rb)
+- [Builder パターン](builder.rb)
 
 ## 参考
 
