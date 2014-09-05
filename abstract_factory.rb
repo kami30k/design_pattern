@@ -3,6 +3,12 @@
 #
 # インスタンスが複数のオブジェクトにより構成される際、その効率性・厳密性を向上させるためのパターン。
 # AbstractFactory を直接生成するのではなく、 ConcreteFactory 経由で生成する。
+#
+# ここでは、 Vehicle クラス（AbstractFactory）と Car/Motorbike クラス（ConcreteFactory）
+# について考える。
+# Vehicle は、 engine/tire という2つの部品を持つことを想定している。
+#
+# これについて、よい例と悪い例について考える。
 
 # AbstractFactory
 class Vehicle
@@ -64,7 +70,7 @@ class MotorbikeTire
   end
 end
 
-# NG
+# 悪い例：
 #
 # 以下の場合、誤った組み合わせでもオブジェクトの生成が許容されてしまう。
 
@@ -73,7 +79,7 @@ vehicle.engine = CarEngine.new
 vehicle.tire = MotorbikeTire.new
 p vehicle.status # => 車のエンジン と バイクのタイヤ
 
-# OK
+# よい例：
 #
 # 以下の場合、 ConcreteFactory で Product を定義している。
 # そのため、誤った組み合わせが生じることはない。
