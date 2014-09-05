@@ -85,7 +85,7 @@ builder = SolutionBuilder.new(SalineWater)
 director = SolutionDirector.new(builder)
 director.make
 
-p builder.solution
+p builder.solution # => #<SalineWater:0x007ff071895558 @water=150, @salt=15>
 
 # 砂糖水の生成
 
@@ -93,4 +93,4 @@ builder = SolutionBuilder.new(SugaredWater)
 director = SolutionDirector.new(builder)
 director.make
 
-p builder.solution
+p builder.solution # => #<SugaredWater:0x007ff071895378 @water=150, @sugar=15>
