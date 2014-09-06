@@ -7,6 +7,7 @@
 - [AbstractFactory パターン](abstract_factory.rb)
 - [Builder パターン](builder.rb)
 - [FactoryMethod パターン](factory_method.rb)
+- [Singleton パターン](singleton.rb)
 
 ## 参考
 
