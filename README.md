@@ -4,6 +4,8 @@
 
 ## パターン一覧
 
+### 生成に関するパターン
+
 - [AbstractFactory パターン](abstract_factory.rb)
 - [Builder パターン](builder.rb)
 - [FactoryMethod パターン](factory_method.rb)
