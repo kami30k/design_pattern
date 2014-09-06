@@ -11,3 +11,4 @@
 
 - http://www.techscore.com/tech/DesignPattern/
 - http://morizyun.github.io/blog/ruby-design-pattern-matome-mokuzi/
+- http://www14.atpages.jp/hirotech/top/Design_Patterns/
