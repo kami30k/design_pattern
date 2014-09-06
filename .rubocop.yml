@@ -3,3 +3,7 @@ AsciiComments:
 
 Style/Documentation:
   Enabled: false
+
+TrivialAccessors:
+  Enabled: true
+  ExactNameMatch: true
