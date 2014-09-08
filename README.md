@@ -11,6 +11,10 @@
 - [FactoryMethod パターン](factory_method.rb)
 - [Singleton パターン](singleton.rb)
 
+### 構造に関するパターン
+
+- [Adapter パターン](adapter.rb)
+
 ## 参考
 
 - http://www.techscore.com/tech/DesignPattern/
