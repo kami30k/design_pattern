@@ -14,6 +14,7 @@
 ### 構造に関するパターン
 
 - [Adapter パターン](adapter.rb)
+- [Composite パターン](composite.rb)
 
 ## 参考
 
