@@ -15,6 +15,7 @@
 
 - [Adapter パターン](adapter.rb)
 - [Composite パターン](composite.rb)
+- [Decorator パターン](decorator.rb)
 
 ## 参考
 
