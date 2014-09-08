@@ -16,6 +16,7 @@
 - [Adapter パターン](adapter.rb)
 - [Composite パターン](composite.rb)
 - [Decorator パターン](decorator.rb)
+- [Proxy パターン](proxy.rb)
 
 ## 参考
 
