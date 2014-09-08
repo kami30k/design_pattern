@@ -24,35 +24,35 @@
 
 # Target
 class NewPrinter
-	def initialize(object)
-		@object = object
-	end
+  def initialize(object)
+    @object = object
+  end
 
-	def with_bracket
-		@object.with_bracket
-	end
+  def with_bracket
+    @object.with_bracket
+  end
 end
 
 # Adaptee
 class OldPrinter
-	def initialize(string)
-		@string = string
-	end
+  def initialize(string)
+    @string = string
+  end
 
-	def add_bracket_to_string
-		"[#{@string}]"
-	end
+  def add_bracket_to_string
+    "[#{@string}]"
+  end
 end
 
 # Adapter
 class PrinterAdapter
-	def initialize(string)
-		@old_printer = OldPrinter.new(string)
-	end
+  def initialize(string)
+    @old_printer = OldPrinter.new(string)
+  end
 
-	def with_bracket
-		@old_printer.add_bracket_to_string
-	end
+  def with_bracket
+    @old_printer.add_bracket_to_string
+  end
 end
 
 # Client
