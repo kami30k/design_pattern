@@ -18,6 +18,10 @@
 - [Decorator パターン](decorator.rb)
 - [Proxy パターン](proxy.rb)
 
+### 振る舞いに関するパターン
+
+- [Command パターン](command.rb)
+
 ## 参考
 
 - http://www.techscore.com/tech/DesignPattern/
