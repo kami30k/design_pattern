@@ -21,6 +21,7 @@
 ### 振る舞いに関するパターン
 
 - [Command パターン](command.rb)
+- [Interpreter パターン](interpreter.rb)
 
 ## 参考
 
