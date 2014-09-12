@@ -24,6 +24,7 @@
 - [Interpreter パターン](interpreter.rb)
 - [Iterator パターン](iterator.rb)
 - [Observer パターン](observer.rb)
+- [Stragegy パターン](strategy.rb)
 
 ## 参考
 
