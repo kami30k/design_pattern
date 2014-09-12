@@ -23,6 +23,7 @@
 - [Command パターン](command.rb)
 - [Interpreter パターン](interpreter.rb)
 - [Iterator パターン](iterator.rb)
+- [Observer パターン](observer.rb)
 
 ## 参考
 
