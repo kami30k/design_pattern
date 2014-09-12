@@ -25,6 +25,7 @@
 - [Iterator パターン](iterator.rb)
 - [Observer パターン](observer.rb)
 - [Stragegy パターン](strategy.rb)
+- [Template Method パターン](template_method.rb)
 
 ## 参考
 
