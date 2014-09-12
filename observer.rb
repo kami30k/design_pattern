@@ -61,5 +61,9 @@ end
 
 taro = Employee.new('Taro')
 taro.salary = 5_000
+# => Taro さんに 5000 円の小切手を発行します
+#    Taro さんに新しい請求書を発行します
 
 taro.salary = 10_000
+# => Taro さんに 10000 円の小切手を発行します
+#    Taro さんに新しい請求書を発行します
